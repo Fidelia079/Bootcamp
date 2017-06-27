@@ -1,6 +1,18 @@
 #include <stdio.h>
 
 // printArray goes here
+void printArray (int * myArray, int arraySize) {
+  int i;
+  int * curloc = myArray;
+  for (i = 0; i < arraySize; i++) {
+  /*  printf("My array is %i\n", myArray[i]);
+  }*/
+
+//  if (curloc < arraySize) { WRONG
+      printf("%d\n", *curloc);
+      curloc++;
+  }
+}
 
 
 int main() {

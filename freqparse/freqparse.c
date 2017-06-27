@@ -1,7 +1,7 @@
 #include <stdio.h>
 int main() {
   // initialize variables;
-  int counter, digits, lowerc, other;
+  float counter, digits, lowerc, other;
   char c;
   counter = 50; //checking first 50, need to change
   digits = lowerc = other = 0;
@@ -20,6 +20,6 @@ int main() {
   }
 
   // Output results here
-
+printf("Numbers = %f digits and %f lowercase letters and %f other characters.\n", digits, lowerc, other);
   return 0;
 }
